@@ -1,24 +1,23 @@
-# weather-app
+# Weather application in Vue.JS
 
 ## Project setup
+1. Install node dependencies
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+2. Create .env file in root folder and add this
+```
+VUE_APP_API_KEY={OpenWeather api token}
+```
+3. Compile for development mode
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+4. Compile for production mode
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Application images
+![Login page](/images/login_page.png)
+![Main page](/images/main_page.png)
